@@ -1,0 +1,13 @@
+.container1{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1fr,minmax(100px));
+}
+.rowhandler{
+    display: grid;
+    width: 80vw;
+    gap: 20px;
+    grid-template-columns: repeat(120px,minmax(1fr));
+}
